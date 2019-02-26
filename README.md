@@ -1,5 +1,7 @@
 # Node Boilerplate
 
+A simple boilerplate for starting Node projects.
+
 ## Installation
 
 ```bash
@@ -17,3 +19,5 @@ npm start
 ```bash
 npm run build
 ```
+
+This will output a `dist` folder.
