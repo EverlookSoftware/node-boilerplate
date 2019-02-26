@@ -28,7 +28,7 @@ export const getSomethingFromSomewhere = (request, response) => {
  * @returns {Promise<{ success }>} - response object
  */
 export const postSomethingToSomewhere = (request, response) => {
-  log('Posting somehwere...');
+  log('Posting somehwere...', request.body);
 
   return response.json({ succcess: true });
 };
